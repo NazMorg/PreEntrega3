@@ -1,0 +1,52 @@
+/* INFO */
+@mixin sidebars {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.cajas {
+	background-color: $background-color_1;
+	border: none;
+	justify-content: center;
+}
+.tituloCaja {
+	padding-left: 5rem;
+	font-weight: bold;
+	text-decoration: underline $color_2;
+}
+.sidebar {
+	padding-left: 10%;
+	@include sidebars;
+}
+.sidebar2 {
+	padding-right: 10%;
+	margin-right: 10%;
+	@include sidebars;
+}
+.enlace {
+	text-decoration: none;
+	color: $color_3;
+	&:hover {
+		color: $color_2;
+		font-weight: bolder;
+	}
+}
+.colImagen1 {
+	background-color: rgb(145, 70, 255);
+}
+.colImagen2 {
+	background-color: rgb(0, 173, 229);
+}
+.colImagen3 {
+	background-color: rgb(205, 32, 31);
+}
+.colImagen4 {
+	background-color: $color_2;
+}
+.imgCaja {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

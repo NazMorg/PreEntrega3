@@ -1,0 +1,43 @@
+/* SECTION */
+.principal {
+	background-color: $color_1;
+	padding: 4%;
+	padding-top: 0;
+	padding-bottom: 0;
+	h2 {
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		text-decoration: underline $color_2;
+		padding: 0.5rem;
+		margin-top: 3rem;
+	}
+	p {
+		text-align: center;
+		font-weight: bold;
+		padding: 0.5rem;
+	}
+	.subtexto {
+		text-align: left;
+		padding: 0;
+		margin-left: 0.5rem;
+		margin-bottom: 0;
+	}
+	.subtitulo {
+		font-weight: bold;
+		text-decoration: underline $color_2;
+		margin-left: 0.8rem;
+		margin-top: 0;
+	}
+	.subtituloDos {
+		font-weight: bold;
+		text-decoration: underline $color_2;
+		margin-left: 0.8rem;
+		margin-top: 0.8rem;
+	}
+	h3 {
+		text-decoration: underline $color_2;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+	}
+}

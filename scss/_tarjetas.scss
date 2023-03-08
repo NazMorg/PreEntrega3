@@ -1,0 +1,15 @@
+/* TARJETAS */
+.tarjeta {
+	background-color: $color_1;
+}
+.textoTarjeta {
+	color: $color_2;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+.tituloTarjeta {
+	color: $color_2;
+	font-weight: bold;
+	text-decoration: underline $color_3;
+}

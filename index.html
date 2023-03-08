@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Versión web no oficial del reddit /Apexrollouts">
+    <meta name="keywords" content="apexrollouts, movementtech, superglide, apex, legends">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Apexrollouts Web | Inicio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container-fluid scroll">
+
+    <!-- HEADER -->
+    <header>
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid header">
+                <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="img/logo.png"
+                        alt="logo Apexrollouts"> /Apexrollouts Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end header" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header header">
+                        <h1 class="colorNav offcanvas-title" id="offcanvasNavbarLabel">/Apexrollouts Web</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body header">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link colorNav" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="colorNav nav-link" href="html/tech.html">MovementTech</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="colorNav nav-link" href="html/creadores.html">Creadores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="colorNav nav-link" href="html/clips.html">Clips</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="colorNav nav-link" href="html/info.html">Mas Información</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECTION -->
+    <section class="principal">
+        <h2>¿Qué es Apexrollouts?</h2>
+        <p>Apexrollouts es un hilo de reddit creado por jugadores de la comunidad de Apex Legends, en el cual se postea
+            sobre nuevas tecnicas de movimiento descubiertas, formas mas sencillas de realizar las ya conocidas, o cosas
+            con la cual facilitar la practica de las mismas. Tambien se suelen postear clips y tutoriales facilitando
+            que mas jugadores, nuevos o veteranos, se interesen y puedan aprender o mejorar su movimiento en el juego
+        </p>
+        <h2>¿Por qué una versión web?</h2>
+        <p>Soy un jugador de Apex Legends y siempre me intereso el avance de la comunidad en el area de las mecanicas de
+            movimiento o herramientas desarrolladas para su practica, como lo seria r5reload, el cual es una version
+            modificada del juego base para facilitar practicas de apuntado o crear circuitos para practica de ciertas
+            tecnicas de movimiento, por eso se me ocurrio crear una version web relacionada al tema que me ayude a
+            practicar algo que estoy aprendiendo (desarrollo web) y me facilite el enfoque en el proyecto</p>
+        <h2>Apex Legends</h2>
+        <p>Apex Legends es un juego multijugador online gratuito de genero Battle Royale - FPS inspirado en el universo
+            del juego Titanfalls desarrollado por Respawn bajo el nombre de Electronic Arts</p>
+        <!-- CAROUSEL -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel.png" class="d-block w-100" alt="Imagen de Apex Legends 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel0.png" class="d-block w-100" alt="Imagen de Apex Legends 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel1.jpg" class="d-block w-100" alt="Imagen de Apex Legends 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FIN CAROUSEL -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid border-top text-center footer">
+        <h5>Todos los derechos reservados © 2023</h5>
+        <p>Esto es una web de prueba como proyecto de práctica, no tengo ninguna relación con los creadores del sitio de
+            reddit más que como jugador</p>
+        <a target="_blank" href="https://www.reddit.com/r/Apexrollouts/"><img src="img/reddit.png"
+                alt="logo de reddit"></a>
+        <a target="_blank" href="https://www.ea.com/es-es/games/apex-legends"><img src="img/ealogo.png"
+                alt="logo de EA"></a>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
