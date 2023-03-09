@@ -1,12 +1,22 @@
 /* HEADER */
+@mixin animacionHover {
+	color: $color_1;
+	transition: all 0.5s;
+	&:hover {
+		color: $color_3;
+	}
+}
 .header {
 	background-color: $color_2;
 }
 .navbar {
 	padding: 0;
 }
-.colorNav {
+.colorTitulo {
 	color: $color_1;
+}
+.colorNav {
+	@include animacionHover;
 }
 .navbar-toggler {
 	margin-right: 0.4rem;
@@ -20,7 +30,7 @@
 }
 .navbar-brand {
 	padding: 0.2rem;
-	color: $color_1;
+	@include animacionHover;
 }
 .logo {
 	width: 50px;

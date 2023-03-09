@@ -28,6 +28,7 @@
 .enlace {
 	text-decoration: none;
 	color: $color_3;
+	transition: all 0.5s;
 	&:hover {
 		color: $color_2;
 		font-weight: bolder;
