@@ -11,6 +11,24 @@
 	border: none;
 	justify-content: center;
 }
+.botonForm {
+	background-color: $color_2;
+	color: $color_1;
+	border: 0;
+	padding-top: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+	transition: all 0.5s;
+	&:hover {
+		color: $color_3;
+		font-weight: bolder;
+		background-color: #a30000;
+	}
+}
+.textoCaja {
+	font-weight: bold;
+}
 .tituloCaja {
 	padding-left: 5rem;
 	font-weight: bold;
