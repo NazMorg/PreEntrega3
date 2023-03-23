@@ -216,6 +216,12 @@ body {
   align-items: center;
 }
 
+/* FORMULARIO */
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
 /* FOOTER */
 .footer {
   justify-content: center;
@@ -239,6 +245,15 @@ body {
 .footer a img {
   width: 50px;
   margin: 0.1rem;
+}
+
+/* MEDIA */
+@media screen and (min-width: 1024px) {
+  .formulario {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
